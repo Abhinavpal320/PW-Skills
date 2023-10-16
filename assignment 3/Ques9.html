@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus{
+            background-color: yellow;
+        }
+        input[name="Email"]{
+            color: red;
+        }
+        input[name="name"]{
+            color: rgb(0, 255, 191);
+        }
+        input[name='k']{
+            color: rgb(89, 0, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Registraion form</h1>
+    <form action="signup.js">
+        <div>
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email">
+        <br></br></div>
+        <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br></br></div>
+        <div>
+        <label for="k">password</label>
+        <input type="password"  name="k" id="k">
+        <br></div>
+    </form>
+</body>
+</html>
